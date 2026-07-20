@@ -27,7 +27,7 @@ guarantees are locked in against future changes.
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** (this commit — link added in the PLAN.md commit)
+**Reproduction commit link:** https://github.com/Nikayel/pathreview/commit/75c3b7c8cfda2623a03a62dd33f02baeb2143992
 
 **Reproduction summary:**
 Confirmed the coverage gap: `pytest tests/integration -m integration` runs
@@ -69,7 +69,7 @@ work but are completely untested.
   so startup `init_db()` crashes with `DuplicateTableError` on a fresh,
   empty database. Migrations must run first.
 
-**PLAN.md link:** (added in the PLAN.md commit)
+**PLAN.md link:** https://github.com/Nikayel/pathreview/blob/test/90-auth-middleware-edge-cases/PLAN.md
 
 **Walkthrough video (recommended):** _to record_
 
